@@ -4,9 +4,9 @@ import { Router } from '@angular/router';
 
 
 @Component({
-  selector: 'app-template',
-  templateUrl: './cmp-template.component.html',
-  styleUrl: './cmp-template.component.scss'
+  selector: 'home',
+  templateUrl: './home.component.html',
+  styleUrl: './home.component.scss'
 })
 export class HomeComponent{
 

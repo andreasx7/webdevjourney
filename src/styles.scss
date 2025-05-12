@@ -1,4 +1,26 @@
-body, html {
-    overflow: hidden;
-    touch-action: none; /* Disable touch scroll during drag */
-  }
+/* Default (light mode) */
+body {
+  background-color: white;
+  color: black;
+}
+
+/* Dark mode overrides */
+body.dark-theme {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.dark-theme .card {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.dark-theme .mat-toolbar {
+  background: #333 !important;
+  color: white !important;
+}
+
+.dark-theme .mat-card {
+  background: #1e1e1e !important;
+  color: white !important;
+}

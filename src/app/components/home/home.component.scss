@@ -15,11 +15,7 @@
     font-size: large;
   }
 
-  .toolbar {
-    display: flex;
-    gap: 16px;
-    align-items: center;
-  }
+ 
 
   .project {
      background: #fff;
@@ -49,5 +45,24 @@
   margin-bottom: 0;
   color: #555;
   line-height: 1.6;
+}
+
+body.dark-theme & {
+  .project {
+    background: #1e1e1e;
+    box-shadow: 0 8px 24px rgba(255, 255, 255, 0.05);
+  }
+
+  .project:hover {
+    box-shadow: 0 12px 30px rgba(255, 255, 255, 0.1);
+  }
+
+  .project h2 {
+    color: #f0f0f0;
+  }
+
+  .project p {
+    color: #ccc;
+  }
 }
 }
