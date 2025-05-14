@@ -1,0 +1,25 @@
+:host {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;      // keep it on top of routed content
+  display: block;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  height: 64px;       // matches Material default
+  gap: 16px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.spacer {
+  flex: 1;
+}

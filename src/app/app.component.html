@@ -1,16 +1,4 @@
-<section class="layout">
-    <mat-toolbar>
-        <div class="toolbar">
-            <div>
-                <mat-icon >menu</mat-icon>
-            </div>
-            <div>Web Dev Journey</div>
-            <div class="spacer"></div>
-            <div (click)="toggleDarkTheme()">
-                <mat-icon *ngIf="!isDarkMode">dark_mode</mat-icon>
-                <mat-icon *ngIf="isDarkMode">light_mode</mat-icon>
-            </div>
-        </div>
-    </mat-toolbar>
-    <router-outlet></router-outlet>
-</section>
+<toolbar></toolbar>
+<div class="content">
+  <router-outlet></router-outlet>
+</div>

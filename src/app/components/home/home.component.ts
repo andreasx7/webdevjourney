@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, ViewEncapsulation } from '@angular/core';
 import { Router } from '@angular/router';
 
 
@@ -6,7 +6,8 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'home',
   templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  styleUrl: './home.component.scss',
+  encapsulation: ViewEncapsulation.None
 })
 export class HomeComponent{
 
