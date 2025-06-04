@@ -32,6 +32,9 @@ export class HomeComponent{
       case 3: 
         window.open('https://dasproject.webdevjourney.site', '_blank');
         break;
+      case 4: 
+        window.open('https://whatthepost.webdevjourney.site', '_blank');
+        break;
     }
 
   }
