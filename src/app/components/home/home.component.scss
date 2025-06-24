@@ -47,5 +47,20 @@
   line-height: 1.6;
 }
 
+.info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+      padding: 8px 0px;
+}
+
+.info span{
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'JetBrains Mono', monospace;
+}
+
 
 }

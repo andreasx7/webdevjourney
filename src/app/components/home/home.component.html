@@ -1,10 +1,18 @@
 <section id="home">
    
     <div class="dashboard-container">
-        <div class="project" (click)="navigateTo(1)"><h2>Boss</h2><p> senior project</p></div>
-        <div class="project" (click)="navigateTo(2)"><h2>Pilotta</h2><p> Under development</p>  </div>
-        <div class="project" (click)="navigateTo(3)"><h2>DAS Project</h2><p> Completed school project</p></div>
-        <div class="project" (click)="navigateTo(4)"><h2>WhatThePost</h2><p>Under development</p></div>
+        <div class="project" (click)="navigateTo(1)">
+            <div class="info"><span>Boss</span><mat-icon fontSet="material-symbols-outlined">construction</mat-icon></div><p> Senior project</p>
+        </div>
+        <div class="project" (click)="navigateTo(2)">
+            <div class="info"><span>Pilotta</span><mat-icon fontSet="material-symbols-outlined">playing_cards</mat-icon></div><p> Under development</p>
+        </div>
+        <div class="project" (click)="navigateTo(3)">
+            <div class="info"><span>DAS Project</span><mat-icon fontSet="material-symbols-outlined">delivery_truck_speed</mat-icon></div><p> Completed school project</p>
+        </div>
+        <div class="project" (click)="navigateTo(4)">
+            <div class="info"><span>Gamers Guild</span><mat-icon fontSet="material-symbols-outlined">sports_esports</mat-icon></div><p>Under development</p>
+        </div>
         
     </div>
 </section>

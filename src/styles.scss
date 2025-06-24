@@ -3,8 +3,19 @@ body {
   background-color: white;
   color: black;
   font-family: 'Fira Sans', sans-serif;
-      width: 100%;
-    height: 100%;
+}
+
+html, body, app-root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+cdk-overlay-container {
+  position: fixed !important;
+  z-index: 1000 !important;
 }
 
 h1, h2, h3, code, pre, p {
